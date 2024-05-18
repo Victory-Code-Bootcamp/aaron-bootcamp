@@ -1,0 +1,23 @@
+a {
+  background-image: radial-gradient(
+    rgb(255, 45, 43),
+    rgb(255, 255, 255),
+    rgb(255, 24, 24)
+  );
+  color: blue !important;
+  text-decoration: none;
+  font-size: 150%;
+  margin: 25px;
+  text-align: auto;
+  border-style: solid;
+  border-color: red;
+  box-shadow: 5px 5px 5px black;
+}
+
+header {
+  font-weight: lighter;
+  font-style: italic;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}

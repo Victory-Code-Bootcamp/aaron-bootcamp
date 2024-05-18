@@ -1,0 +1,55 @@
+body {
+  text-align: center;
+  max-width: 100%;
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/91dda5fd-93d0-4124-abe4-50bdf8e54899/dc69362-05c89e16-7cb0-4cfa-828f-a45319177d39.jpg/v1/fill/w_1024,h_738,q_75,strp/red_castle_by_nele_diel_dc69362-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzM4IiwicGF0aCI6IlwvZlwvOTFkZGE1ZmQtOTNkMC00MTI0LWFiZTQtNTBiZGY4ZTU0ODk5XC9kYzY5MzYyLTA1Yzg5ZTE2LTdjYjAtNGNmYS04MjhmLWE0NTMxOTE3N2QzOS5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.yQv93LNoKvYxNee2FjvGWeFdWvgmE_EnRvA4wREMAM8);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 500%;
+  font-weight: bold;
+  color: rgba(117, 4, 4, 0.945);
+  margin-bottom: 1px;
+}
+img {
+  width: 10%;
+  height: 10%;
+  margin-bottom: 1px;
+}
+h2 {
+  margin-top: -5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 300%;
+  font-weight: bold;
+  color: rgba(124, 3, 3, 0.945);
+}
+div {
+  width: 100%;
+  font-size: 150%;
+  color: black;
+}
+mark {
+  background-color: red;
+  color: white;
+  font-weight: lighter;
+  font-style: italic;
+}
+span:hover {
+  background-color: rgba(117, 4, 4, 0.945);
+  color: white;
+  font-weight: lighter;
+  font-style: italic;
+}
+details {
+  text-align: left;
+  color: aquamarine;
+}
+sup {
+  font-size: 50%;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
