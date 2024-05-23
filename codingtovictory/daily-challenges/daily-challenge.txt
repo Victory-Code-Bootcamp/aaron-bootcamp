@@ -1,0 +1,31 @@
+
+Create a merge-challenge-branch and add a merge-challenge.html with this content.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simple Page</title>
+</head>
+<body>
+    <p>Hello, welcome to our site!</p>
+</body>
+</html>
+Push code up to Github and create a Pull Request then merge your changes into your main branch
+Make sure to check out to main and pull your latest changes
+Create Two Feature Branches:
+Create two branches from the main branch, named feature-x and feature-y.
+Make Overlapping Changes in the Same File:
+In feature-x, change the greeting paragraph in merge-challenge.html.
+In feature-y, change the same greeting paragraph in merge-challenge.html to something different.
+Attempt to Merge:
+Try to merge feature-x into feature-y. This will create a conflict in the merge-challenge.html file because both branches modified the same line.
+Resolve the Conflict:
+Manually edit the merge-challenge.html file in feature-y to resolve the conflict by choosing to keep the text from one branch, blend the changes, or write a completely new version.
+Commit the resolved version.
+Document the Resolution:
+Document the steps you took to resolve the conflict and why you chose the resolution method.
+Push Changes:
+Push the resolved changes from feature-y to the remote repository.
+Open a Pull Request:
+Open a pull request from feature-y to the main branch. Request peer reviews.
+Review and Finalize the Merge:
+Address any feedback from the pull request review, and once approved, merge it into the main branch.
