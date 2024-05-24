@@ -1,0 +1,40 @@
+
+a:link {
+  color: Pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: Red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: Purple;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+body {
+    font-family: Century Schoolbook;
+    font-size: 250%;
+    background-color: gray;
+    width: 90%;
+    margin: 0 auto;
+}
+H1 {
+    font-family: curlz MT;
+    font-size: 300%;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    letter-spacing: .2em;
+}
