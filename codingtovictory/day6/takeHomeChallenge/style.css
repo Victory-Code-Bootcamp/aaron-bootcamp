@@ -1,0 +1,10 @@
+a:hover {
+  background-color: aquamarine;
+}
+a:active {
+  background-color: Red;
+}
+a:visited {
+  background-color: black;
+  color: aqua;
+}
