@@ -2,6 +2,9 @@ body {
   background-color: black;
   width: 60%;
 }
+.container {
+  box-shadow: 5px 5px 5px 0px lightblue;
+}
 
 header {
   border: 5px ridge;
@@ -14,6 +17,7 @@ header {
 }
 nav {
   background-image: radial-gradient(red, green, blue);
+  text-shadow: 2px 2px 0 white;
   border: 5px ridge;
   padding: 4px;
   margin: 0 auto;
@@ -44,20 +48,19 @@ section {
   vertical-align: baseline;
   text-align: center;
   line-height: 300%;
-  margin-top: -5px;
 }
 article {
-  height: 100px;
+  height: 95px;
   background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
   vertical-align: baseline;
   text-align: center;
   line-height: 300%;
 }
 aside {
-  height: 200px;
+  height: 205px;
   border-left: 0;
   line-height: 700%;
-  margin-top: -5px;
+
   width: 100%;
   background-image: conic-gradient(red, yellow, green);
 }
