@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Donate Challenge</title>
+  </head>
+  <body>
+    <header>
+      <h1>Support Our Cause</h1>
+    </header>
+
+    <main>
+      <section id="donation-section">
+        <h2>Make a Donation</h2>
+        <!--The form’s action attribute points to PayPal’s donation URL. The method is set to post to securely send form data.-->
+        <form
+          action="https://www.paypal.com/donate"
+          method="post"
+          target="_top"
+        >
+          <!-- Specify the business email associated with the PayPal account -->
+          <input type="hidden" name="business" value="YOUR_PAYPAL_EMAIL" />
+          <!-- Set to 0 to indicate no recurring donation -->
+          <input type="hidden" name="no_recurring" value="0" />
+          <!-- Description of the donation purpose -->
+          <input type="hidden" name="item_name" value="Support Our Cause" />
+          <!-- Currency for the donation -->
+          <input type="hidden" name="currency_code" value="USD" />
+
+          <fieldset>
+            <legend>Choose a donation amount</legend>
+            <div>
+              <input type="radio" id="amount-10" name="amount" value="10" />
+              <label for="amount-10">$10</label>
+            </div>
+            <div>
+              <input type="radio" id="amount-20" name="amount" value="20" />
+              <label for="amount-20">$20</label>
+            </div>
+            <div>
+              <input type="radio" id="amount-50" name="amount" value="50" />
+              <label for="amount-50">$50</label>
+            </div>
+            <div>
+              <input type="radio" id="amount-other" name="amount" value="" />
+              <label for="amount-other">Other</label>
+              <input
+                type="number"
+                id="amount-custom"
+                name="custom-amount"
+                min="1"
+                placeholder="Enter custom amount"
+                oninput="this.form.amount.value=this.value"
+              />
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Donor Information</legend>
+            <div>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="donor-name" required />
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="donor-email" required />
+            </div>
+          </fieldset>
+          <!-- Submit button to send the form data to PayPal for processing -->
+          <button type="submit">Donate with PayPal</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
+
+<!--
+Example of PayPals Functionality -
+    How to accomplish the donation functionality:
+    1. Create a PayPal Business account if you don't have one.
+    2. Use PayPal's button creation tool to generate a donation button.
+    3. Copy the generated HTML form code and paste it into your webpage.
+    4. Customize the form fields as needed (e.g., donation amounts, donor info).
+    5. The form's action attribute should point to PayPal's donation URL.
+    6. Include hidden input fields for required PayPal parameters (business email, item name, currency).
+    7. Add radio buttons for predefined donation amounts and a text input for custom amounts.
+    8. Ensure the custom amount input updates the amount field dynamically using oninput.
+    9. Collect additional donor information (name and email) using input fields.
+    10. When the form is submitted, it will redirect to PayPal's secure payment page where the donor can complete the transaction.
+    -->
