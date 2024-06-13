@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>For Accessibility Challenge</title>
+  </head>
+  <body>
+    <form>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          required
+          autofocus
+          autocomplete="name"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+          autocomplete="email"
+        />
+      </div>
+
+      <div class="form-group">
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required />
+        <label for="female">Female</label>
+      </div>
+
+      <div class="form-group">
+        <input type="checkbox" id="subscribe" name="subscribe" required />
+        <label for="subscribe">Subscribe to newsletter</label>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
