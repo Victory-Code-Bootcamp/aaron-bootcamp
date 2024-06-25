@@ -1,0 +1,64 @@
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+/* Search container */
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 0 10px;
+  background-color: white;
+  transition: width 0.3s, padding 0.3s;
+  width: 40px;
+}
+
+/* Hide the input initially */
+.search-input {
+  width: 0;
+  height: 40px;
+  border: none;
+  outline: none;
+  transition: width 0.3s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* Button styling */
+.search-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.search-icon {
+  width: 24px;
+  height: 24px;
+  color: #333;
+}
+
+/* Expand input when parent has focus */
+.search-container:focus-within {
+  width: 200px;
+  padding: 0 10px;
+}
+
+/* Show input when parent has focus */
+.search-container:focus-within .search-input {
+  width: 100%;
+  opacity: 1;
+  visibility: visible;
+}
