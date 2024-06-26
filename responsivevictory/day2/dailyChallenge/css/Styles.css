@@ -1,0 +1,9 @@
+.col {
+  border: 2px solid black;
+  margin: 1px;
+  padding: 10px;
+}
+
+.row {
+  border: 3px solid black;
+}
