@@ -1,0 +1,13 @@
+h1 {
+  background-color: green;
+}
+@media (max-width: 768px) {
+  h1 {
+    background-color: Aquamarine;
+  }
+}
+@media (max-width: 480px) {
+  h2 {
+    background-color: black;
+  }
+}
