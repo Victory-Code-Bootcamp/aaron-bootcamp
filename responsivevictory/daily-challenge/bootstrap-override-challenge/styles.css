@@ -1,0 +1,14 @@
+.navbar-light {
+  background-color: rgb(189, 31, 58) !important;
+}
+.btn-primary {
+  background-color: rgb(189, 31, 58) !important;
+}
+
+.btn-primary:hover {
+  background-color: black !important;
+}
+.card {
+  background-color: rgb(189, 31, 58) !important;
+  padding: 10px;
+}
