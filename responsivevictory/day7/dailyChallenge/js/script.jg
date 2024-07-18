@@ -1,0 +1,8 @@
+var myFirstName = "Aaron"; // Creates a variable myFirstName with a value of Aaron
+var luckyNumberOne = 28; // Creates a variable luckyNumberOne with a value of 28
+var luckyNumberTwo = 7; // Creates a variable luckyNumberTwo with a value of 7
+var whaWha = 
+
+console.log(myFirstName.length); // Displays the number of letters in myFirstName variable on the console
+console.log(`My first lucky number is ${luckyNumberOne} my second favorite lucky number is ${luckyNumberTwo}`); // Displays the enclosed text with the values of the lucky number variables
+console.log(whaWha); // Should display undefined on the console
