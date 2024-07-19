@@ -5,7 +5,7 @@ var myPartner = "That one Lady";
 var myPlace = "Timbucktoo";
 var myJob = "COO";
 var birthYear = 1981;
-var futureYear = `202${randomNumber + 4}`; // Generates a random year in the future
+var futureYear = 2024 + randomNumber; // Generates a random year in the future
 var ageIfBirthdayPassed = futureYear - birthYear;
 var ageIfBirthdayNotPassed = futureYear - birthYear - 1;
 
