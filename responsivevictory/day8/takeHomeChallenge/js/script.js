@@ -29,3 +29,16 @@ if (isNaN(enteredNumber)) {
   // Display square root using alert
   alert(`The square root of ${enteredNumber} is ${squareRoot.toFixed(2)}`); // Round to 2 decimal places
 }
+
+// Create a new Date object and output its value as a string
+const currentDate = new Date();
+console.log("Current Date:", currentDate.toString());
+
+// Get the current year from a Date object and console log the output
+const currentYear = currentDate.getFullYear();
+console.log("Current Year:", currentYear);
+
+// Create a new Date object and add 10 days to it
+const newDate = new Date();
+newDate.setDate(newDate.getDate() + 10);
+console.log("New Date (10 days later):", newDate.toString());
