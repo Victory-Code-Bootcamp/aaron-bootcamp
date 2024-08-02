@@ -1,3 +1,4 @@
+// Challenge 1
 const donisKia = {
   color: "red",
   year: 2021,
@@ -6,6 +7,7 @@ const donisKia = {
   playlist: ["Song 1", "Song 2", "Song 3"], // Array of favorite songs
 };
 
+// Challenge 2
 const car = {
   make: "Toyota",
   model: "Camry",
@@ -13,6 +15,7 @@ const car = {
   color: "blue",
 };
 
+// Challenge 3
 class Rectangle {
   constructor(length, width) {
     this.length = length;
@@ -22,6 +25,7 @@ class Rectangle {
   area = () => this.length * this.width;
 }
 
+// Challenge 4
 class Employee {
   constructor(name, salary) {
     this.name = name;
