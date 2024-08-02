@@ -1,9 +1,5 @@
 # Pull Request
 
-## Description
-
-Please include a summary of the changes and the related issue.
-
 ## Type of Change
 
 - [ ] Bug fix (non-breaking change which fixes an issue)
