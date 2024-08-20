@@ -5,5 +5,15 @@
   "dependencies": {
     "express": "^4.19.2",
     "nodemon": "^3.1.4"
-  }
+  },
+  "name": "aaron-bootcamp",
+  "version": "1.0.0",
+  "description": "Victory Code Bootcamp\r =====================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

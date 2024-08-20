@@ -6,11 +6,11 @@ const router = express.Router();
 
 // Static routes
 router.get("/", (req, res) => {
-  res.send("Home Page");
+  res.send("This is the Main Page");
 });
 
 router.get("/about", (req, res) => {
-  res.send("About Page");
+  res.send("This is an about page");
 });
 
 // Dynamic route
