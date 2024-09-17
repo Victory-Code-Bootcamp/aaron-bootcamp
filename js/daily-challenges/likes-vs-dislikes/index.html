@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Like & Dislike System</title>
+    <script defer src="script.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100 flex items-center justify-center h-screen">
+    <div class="bg-white p-6 rounded shadow-lg text-center">
+      <h1 class="text-2xl font-bold mb-4">Like/Dislike Button Demo</h1>
+      <div class="space-x-4 mb-6">
+        <button
+          id="likeBtn"
+          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        >
+          Like
+        </button>
+        <button
+          id="dislikeBtn"
+          class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+        >
+          Dislike
+        </button>
+      </div>
+      <div id="result" class="text-xl text-gray-800"></div>
+    </div>
+  </body>
+</html>
